@@ -1,0 +1,77 @@
+.navbarcomponent {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.form-check {
+  margin-right: 5em;
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-logo {
+  height: 70px;
+  width: 170px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 15px;
+}
+.mycard {
+  margin: auto;
+  margin-top: 5%;
+  height: 70vh;
+  width: 80%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  /* box-shadow: 5px 10px 8px #888888 */
+}
+
+.login {
+  text-align: center;
+  margin-top: 40px;
+  float: right;
+  width: 40%;
+  border: 1px solid lightgray;
+}
+.signup {
+  float: left;
+  width: 60%;
+  border: none;
+}
+.home {
+  margin-top: 50px;
+}
+
+.card-form-control {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.signup-form-control {
+  margin-top: 10px;
+}
+
+.login-link {
+  margin: 0px;
+}
+
+.panel-title {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+.panel-title:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.card-img-top {
+  height: 400px;
+  width: inherit;
+}
