@@ -1,0 +1,37 @@
+mongodb+srv://manavi21920065:<password>@qnacluster.stkhb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+//using promises
+// router.post("/register", (req, res) => {
+//   //object destructuring
+//   const { name, username, password, cpassword, email } = req.body;
+
+//   if (!name || !username || !password || !cpassword || !email) {
+//     return res.status(422).json({ error: "Please fill all fileds" });
+//   }
+
+//   User.findOne({ username: username }).then((usernameTaken) => {
+//     if (usernameTaken) {
+//       return res.status(422).json({ error: "Username Already Taken" });
+//     }
+//   });
+
+//   User.findOne({ email: email }).then((userExists) => {
+//     if (userExists) {
+//       return res
+//         .status(422)
+//         .json({ error: "User Already Exists,Try Logging in..!" });
+//     }
+//   });
+
+//   const user = new User({ name, username, password, cpassword, email });
+
+//   user
+//     .save()
+//     .then(() => {
+//       res.status(201).json({ message: "Registration Successful!" });
+//     })
+//     .catch((error) => {
+//       res.status(500).json({ error: "Faild to register" });
+//     })
+//     .catch((error) => console.log(error));
+// });
